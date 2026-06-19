@@ -1,0 +1,70 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container styling */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+#mainHeading {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input field */
+#userInput {
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+#userInput:focus {
+    border-color: #2193b0;
+}
+
+/* Buttons */
+button {
+    margin: 8px 5px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2193b0;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #176f8a;
+}
+
+/* Paragraph */
+#paragraph {
+    margin-top: 20px;
+    color: #555;
+    font-size: 16px;
+}
